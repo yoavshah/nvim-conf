@@ -1,6 +1,6 @@
 
 config_function = function(lspconfig, capabilities, custom_attach)
-    
+
     lspconfig.pyright.setup({
         on_attach = custom_attach,
         capabilities = capabilities,
