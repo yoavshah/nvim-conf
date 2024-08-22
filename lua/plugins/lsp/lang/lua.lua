@@ -36,7 +36,7 @@ end
 return {
     config_function = config_function,
     packages = {
-        {"folke/neodev.nvim", opt={}}
+        {"folke/neodev.nvim", opt={}},
     },
     mason_packages = { 
         "lua-language-server",
